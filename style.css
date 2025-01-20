@@ -71,3 +71,17 @@ body {
   color: var(--gray-950);
   line-height: 150%;
 }
+
+.heading-content {
+  color: var(--gray-950);
+  font-size: 1.25rem; /**/
+  font-weight: var(--figTree_extraBold);
+  line-height: 150%;
+}
+
+.text-content {
+  color: var(--gray-500);
+  font-size: var(--font-size14);
+  font-weight: var(--figTree_medium);
+  line-height: 150%;
+}

@@ -85,3 +85,21 @@ body {
   font-weight: var(--figTree_medium);
   line-height: 150%;
 }
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+#avatar {
+  width: 2rem;
+  height: 100%;
+  padding: 0;
+}
+
+.author-name {
+  line-height: 150%;
+  font-size: var(--font-size14);
+  font-weight: var(--figTree_extraBold);
+  text-transform: capitalize;
+}

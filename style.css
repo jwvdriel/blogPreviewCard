@@ -79,6 +79,11 @@ body {
   line-height: 150%;
 }
 
+.heading-content:hover {
+  cursor: pointer;
+  color: var(--Yellow);
+}
+
 .text-content {
   color: var(--gray-500);
   font-size: var(--font-size14);

@@ -53,7 +53,7 @@ body {
   gap: 0.75rem;
 }
 
-.content button {
+.content span {
   border-radius: 4px;
   font-weight: var(--figTree_extraBold);
   font-size: 0.75rem;
@@ -120,7 +120,7 @@ body {
     height: 32.625rem;
   }
 
-  .content button {
+  .content span {
     font-size: var(--font-size14);
     font-weight: var(--figTree_extraBold);
   }

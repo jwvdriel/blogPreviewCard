@@ -62,6 +62,7 @@ body {
   background-color: var(--Yellow);
   text-transform: capitalize;
   color: var(--gray-950);
+  border: none;
 }
 
 .publish_date {
@@ -109,4 +110,26 @@ body {
   font-weight: var(--figTree_extraBold);
   text-transform: capitalize;
   margin-left: 0.75rem;
+}
+
+/* desktop 1280 and higher */
+
+@media (min-width: 1280px) {
+  .card {
+    width: 24rem;
+    height: 32.625rem;
+  }
+
+  .content button {
+    font-size: var(--font-size14);
+    font-weight: var(--figTree_extraBold);
+  }
+
+  .heading-content {
+    font-size: var(--font-size24);
+  }
+
+  .text-content {
+    font-size: var(--font-size16);
+  }
 }
